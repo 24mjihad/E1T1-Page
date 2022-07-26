@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+header {
+    background-color: #27AE60;
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	z-index: 9999;
+	transition: all 300ms ease-in-out;
+}
+header .logo {
+
+    font-family: 'DM Sans', sans-serif;    width: 1440px;
+    height: 30px;
+    left: calc(50% - 1440px/2 - 1px);
+    top: calc(50% - 47px/2 - 1536px);
+    font-style:italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+
+
+
+.scroll-down header {
+	
+		transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up header {
+		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+	
+}
+
+.menu-is-open {
+	overflow: hidden;
+}
+.menu-is-open header{
+
+		filter: none;
+}
+
+body {
+position: relative;
+width: 1440px;
+height: 3159px;
+
+background: #171717;
+}
+#group4 {
+    position:absolute;
+    width: 416px;
+    height: 150px;
+    left: 787px;
+    top: 333px;
+    
+}
+.t1 {
+
+    width: 416px;
+    height: 124px;
+    left: 128px;
+    font-family: 'DM Sans', sans-serif;    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    
+    color: #FFFFFF;
+    
+}
+
+.t2 {
+    font-family: 'DM Sans', sans-serif;    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0px;
+    
+    /* Gray 3 */
+    
+    color: #828282;
+    
+}
+
+
+.bt1 {
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    left: 789px;
+    top: 567px;
+    padding: 12px;
+    /* Green 2 */
+    background: #27AE60;
+}
+
+.bt2 {
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px;
+    box-sizing: border-box;
+
+    left: 976px;
+    top: 567px;
+    background: #171717;
+    border: 1px solid #F2F2F2; 
+}
+a {
+    text-decoration: none;
+}
+.bt2:hover {
+    background: #F2F2F2;
+    color: #171717;
+    box-shadow: 0px 0px 4px 2px #27AE60;
+
+}
+
+.bt1:hover {
+    background:#FFFFFF;
+    color: #27AE60;
+    box-shadow: 0px 0px 4px 2px #27AE60;
+}
+
+
+.profile {
+
+position: absolute;
+width: 426px;
+height: 641px;
+left: 308px;
+top: 192px;
+    
+border-radius: 68px;
+z-index: 1;
+
+box-shadow: 0px 4px 6px 8px rgba(0, 0, 0, 0.25), -13px 5px 0px 2px #27AE60, -16px 5px 0px 2px #215838,4px -5px 0px 2px #78CD9C;
+}
+
+
