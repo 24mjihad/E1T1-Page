@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 header {
     background-color: #27AE60;
     position: fixed;
@@ -172,7 +172,7 @@ font-size: 48px;
 line-height: 62px;
 text-align: center;
 
-color: #FFFFFF;
+color: #27AE60;
 
 }
 
@@ -194,6 +194,7 @@ color: #FFFFFF;
 
 }
 
+
 .circle1 {
     background-image: url(circle.svg);
     position: absolute;
@@ -201,7 +202,6 @@ color: #FFFFFF;
     height: 62px;
     left: 282px;
     top: 1158px;
-
 }
 .circle2 {
     background-image: url(circle.svg);
@@ -210,6 +210,7 @@ color: #FFFFFF;
     height: 62px;
     left: 563px;
     top: 1158px;
+    
 }
 
 .circle3 {
@@ -229,4 +230,167 @@ color: #FFFFFF;
     left: 1118px;
     top: 1158px;
 
+}
+
+
+#circle{
+    filter: drop-shadow(0px 0px 4px #27AE60);
+
+}
+
+#t1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+}
+#t2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #27AE60;
+}
+
+#t2:hover {
+text-decoration: underline;
+}
+.name {
+    position: absolute;
+    width: 86px;
+    height: 23px;
+    left: 270px;
+    top: 1238px;
+}
+.uname {
+    position: absolute;
+    width: 149px;
+    height: 23px;
+    left: 238px;
+    top: 1264px;
+}
+
+.email {
+    position: absolute;
+    width: 124px;
+    height: 23px;
+    left: 532px;
+    top: 1238px;
+}
+.uemail {
+    position: absolute;
+    width: 204px;
+    height: 23px;
+    left: 492px;
+    top: 1264px;
+}
+
+.linkedin {
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    left: 832px;
+    top: 1238px;
+}
+.ulinkedin {
+    position: absolute;
+    width: 108px;
+    height: 23px;
+    left: 815px;
+    top: 1264px;
+}
+.git {
+    position: absolute;
+    width: 60px;
+    height: 23px;
+    left: 1119px;
+    top: 1233px;
+}
+.ugit {
+    position: absolute;
+    width: 108px;
+    height: 23px;
+    left: 1095px;
+    top: 1264px;
+}
+
+#tit {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    
+    color: #27AE60;
+}
+
+#pag {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+
+
+.skill {
+    position: absolute;
+    width: 1438px;
+    height: 62px;
+    left: 0px;
+    top: 1409px;
+}
+
+.skilltxt {
+    position: absolute;
+    width: 1437px;
+    height: 271px;
+    left: 0px;
+    top: 1498px;
+}
+
+
+.prog {
+    position: absolute;
+    width: 1438px;
+    height: 60px;
+    left: -1px;
+    top: 2100px;
+}
+
+.progtxt {
+    position: absolute;
+    width: 886px;
+    height: 298px;
+    left: 277px;
+    top: 2200px;
+    
+}
+
+.last {
+position: absolute;
+width: 1438px;
+height: 60px;
+left: 0px;
+top: 2650px;
+}
+
+.page {
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    left: 22%;
+    top: 2800px;
+    width:800px; 
+    height: 600px;
 }
