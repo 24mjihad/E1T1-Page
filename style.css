@@ -193,3 +193,40 @@ text-align: center;
 color: #FFFFFF;
 
 }
+
+.circle1 {
+    background-image: url(circle.svg);
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 282px;
+    top: 1158px;
+
+}
+.circle2 {
+    background-image: url(circle.svg);
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 563px;
+    top: 1158px;
+}
+
+.circle3 {
+    background-image: url(circle.svg);
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 838px;
+    top: 1158px;
+}
+
+.circle4 {
+    background-image: url(circle.svg);
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 1118px;
+    top: 1158px;
+
+}
